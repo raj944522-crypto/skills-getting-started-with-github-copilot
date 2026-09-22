@@ -74,6 +74,32 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.participants-panel {
+  margin-top: 16px;
+  padding: 12px 14px;
+  background: linear-gradient(135deg, #eef4ff 0%, #f7f9ff 100%);
+  border: 1px solid #d8e3ff;
+  border-radius: 8px;
+}
+
+.participants-panel h5 {
+  margin-bottom: 8px;
+  color: #1a237e;
+  font-size: 0.95rem;
+}
+
+.participants-list {
+  margin: 0;
+  padding-left: 1.2rem;
+  list-style: disc;
+  color: #2d3a5a;
+}
+
+.participants-list li {
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
