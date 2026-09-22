@@ -90,14 +90,48 @@ section h3 {
 
 .participants-list {
   margin: 0;
-  padding-left: 1.2rem;
-  list-style: disc;
+  padding: 0;
+  list-style: none;
   color: #2d3a5a;
 }
 
-.participants-list li {
-  margin-bottom: 4px;
-  line-height: 1.4;
+.participant-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 8px 10px;
+  margin-bottom: 6px;
+  background: white;
+  border: 1px solid #dfe7ff;
+  border-radius: 999px;
+}
+
+.participant-item.empty {
+  justify-content: flex-start;
+  border-radius: 8px;
+  background: #f4f7ff;
+}
+
+.participant-name {
+  overflow-wrap: anywhere;
+}
+
+.remove-participant {
+  border: none;
+  background: #ffe3e3;
+  color: #b42318;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 0.9rem;
+  line-height: 1;
+  transition: background 0.2s ease;
+}
+
+.remove-participant:hover {
+  background: #ffc9c9;
 }
 
 .form-group {
